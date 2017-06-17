@@ -30,4 +30,10 @@ different Availability Zones.
 * Multiple, distributed if necessary, Q processor servers with network access
   to the Central Q server and the Data servers.
 
+### A picture is worth a thousand cache hits
+Here Q is the central Q server(s), D is the data servers, fronted by an
+ELB, P is the Q processor and A is the Application.
+![dhaq high level architecture](https://raw.githubusercontent.com/ccdale/dhaqari/master/qarchitectur.png
+"dhaq high level architecture")
+
 [modeline]: # ( vim: set fenc=utf-8 spell spl=en tw=76 ft=markdown: )
