@@ -1,11 +1,13 @@
 # Distributed, Highly Available, FIFO Queue
 Yesterday, we had a short discussion regarding our current Q mechanisms,
-with the asertion that queues cannot be infinate and that they are not
+with the assertion that queues cannot be infinite and that they are not
 scalable.
 
 That got me thinking that it can't be that hard, can it. So I thought I'd
 have a go at making a highly-available, distributed Q that might scale,
-though I doubt if it will ever be capable of infinate length.
+though I doubt if it will ever be capable of infinite length.
+
+At the moment this exists only in my head, there's no code yet!!
 
 The following is designed with Amazon's AWS infrastructure in mind.  At the
 moment the Q is scalable within a single Region, though is highly-available
