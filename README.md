@@ -27,7 +27,7 @@ different Availability Zones.
     behind an Elastic Load Balancer (which will handle the SSL termination
     and  distribution of Load). Only the ELB should be accessible from
     *outside* the private networks.
-* Multiple, distributed if necessary, Q processor servers with network access
+* Multiple, distributed as necessary, Q processor servers with network access
   to the Central Q server and the Data servers.
 
 ### A picture is worth a thousand cache hits
